@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0>
+	
+	<title>Space Tourism</title>
+	<link rel="stylesheet" href="styles.css">
+	<script defer src="script.js"></script>
+</head>
+<body>
+	<header>
+		<nav>
+			<h1>Space Tourism</h1>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#destinations">Destinations</a></li>
+				<li><a href="#booking">Book Now</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="home" class="hero">
+		<h2>Explore the Final Frontier</h2>
+		<p>Book your journey to Eropa, the Moon, Titans or Mars today!</p>
+		<button onclick="scrollToSection('destinations')">Explore Destinations</button>
+	</section>
+
+	<section id="destinations"
+		   <div class="destination">
+			<img src="https://i.imgur.com/uY4hMMn.png" alt="Moon">
+			<h4>MOON</h4>
+			<p>Walk where astronauts have walked..</p>
+<button onclick="location.href='https://science.nasa.gov/moon/'">Learn More</button>
+		</div>
+		<br>
+		
+		<section id="destination">
+			<div class="card">
+			<img src="https://i.imgur.com/NDrUVCG.png alt="europa""
+				<h4>EUROPA</h4>
+				<p>Experience breathtaking views of Europa, the smallest of the four Galilean moons orbiting Jupiter.</p>
+				<button onclick="location.href='https://science.nasa.gov/jupiter/moons/europa/'">Learn More</button>
+			</div>
+			<br>
+			
+			<section id="destination">
+			<div class="card">
+			<img src="https://i.imgur.com/3IRiVSB.png alt="titan">
+				<h4>TITAN</h4>
+				<p>Walk where astronauts have walked.</p>
+				<button onclick="location.href='https://science.nasa.gov/saturn/moons/titan/'">Learn More</button>
+			</div>
+			<br>
+			
+			<section id="destination"
+			<div class="card">
+			<img src="https://i.imgur.com/LVCM2dX.png" alt=mars>
+				<h4>Mars</h4>
+				<p>Be part of humanity's next great adventure.</p>
+				<button onclick="location.href='https://science.nasa.gov/mars/'">Learn More</button>
+			</div>
+		</div>
+	</section>
+
+	<section id="booking">
+		<h3>Book Your Adventure</h3>
+		<form id="booking-form">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+
+			<label for="destination">Destination:</label>
+			<select id="destination" name="destination">
+				<option value="Earth Orbit">Earth Orbit</option>
+				<option value="The Moon">The Moon</option>
+				<option value="Mars">Mars</option>
+			</select>
+
+			<label for="date">Travel Date:</label>
+			<input type="date" id="date" name="date" required>
+
+			<button type="submit">Submit</button>
+		</form>
+	</section>
+
+	<footer id="contact">
+		<p>&copy; 2024 Space Tourism. All rights reserved.</p>
+		<p>Email: saeedabdulfazal72@icloud.com | Phone: +233 551 094 743 SPACE</p>
+	</footer>
+</body>
+</html>
